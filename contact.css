@@ -1,36 +1,65 @@
 /*見出し*/
-body di{
+.title{
     color: black;
     font-size:220%;
 }
 
 /*How_to*/
-body d{
+.How_head{
     color:black;
     font-size:210%;
     margin:0;
 }
 
 /*address*/
-body div{
+.address{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+.contact_address{
     color: red;
+    margin:0 auto;
     font-size:30px;
-    padding: 50px 0 100px 0;
+    padding: 50px 0 30px 0;
     text-align: center;
 }
+.contact_address img{
+    position:relative;
+    top:10px;
+    left:-350px;
+    height:65px;
+    width:80px;
+    
+}
+/*address*/
 
 /*nummber*/
-body .a{
+.number{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+.contact_number{
     color: blue;
     font-size:30px;
-    padding: 50px 0 10px 0;
+    padding: 30px 0 10px 0;
     text-align: center;
 }
+.contact_number img{
+    position:relative;
+    top:10px;
+    left:-350px;
+    height:65px;
+    width:100px;
+    
+}
+/*nummber*/
 
 /*honda*/
-body .top-wrapper{
-    padding: 180px 0 100px 0;
-    background-image: url(honda.jpeg);
+.top-wrapper{
+    padding: 180px 0 150px 0;
+    background-image: url(img/honda.jpeg);
     background-size: cover;
-    
+    text-align:center;    
 }
