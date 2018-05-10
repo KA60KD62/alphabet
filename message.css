@@ -44,9 +44,6 @@
   top: 7px;
   box-shadow: none;
 }
-/*全体多分レス行く*/
-@media all and (min-width: 1000px) {
-  padding:15px 15px ;
-}
+
 
 
