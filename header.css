@@ -1,37 +1,4 @@
-
-.name-logo{
-    font-size:220%;
-    color:white;
-    
-}
-.container-header {
-  width: 1oo%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-.header-right .login {
-  line-height: 67px;
-  padding: 18px 25px 0 25px;
-  color: white;
-  cursor: pointer;
-  display: block;
-}
-ul {
-    list-style-type: none;
-    font-size:120%;
-    padding-right:25px;
-}
-.category1{
-    font-family: 'Press Start 2P', cursive;
-    margin-left: -30px;
-}
-
-.category2{
-    font-family: 'Fredoka One', cursive;
-    font-size:200%;
-    margin-left: -40px;
-}
-
+/*共通ヘッダー*/
 header {
   height: 85px;
   width: 100%;
@@ -40,7 +7,6 @@ header {
   top: 0;
   z-index: 10;
 }
-
 .header-left {
   float: left;
   padding:1.35% 0 0 10px;
@@ -51,10 +17,35 @@ header {
   background-color:rgb(24, 85, 97) ;
   transition: all 0.5s;
 }
-
+.header-right .login {
+  line-height: 67px;
+  padding: 18px 25px 0 25px;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
 .header-right:hover {
   background-color: rgba(255,255,255,0.5);
 }
+/*共通ヘッダー、フッター内容*/
+.container-header {
+  width: 1oo%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*共有ヘッダー、フッタータイトル*/
+.name-logo{
+    font-size:220%;
+    color:white;
+    
+}
+/*共通メニュー中身,indexFAQ*/
+ul {
+    list-style-type: none;
+    font-size:120%;
+    padding-right:25px;
+}
+/*共通メニュー中身*/
 
 #signup-form, #login-form {
   width: 100%;
@@ -84,7 +75,6 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 100;
 }
-
 .modal {
   position: absolute;
   top: 20%;
@@ -96,11 +86,21 @@ header {
   height: auto;
   text-align: center;
 }
-
+/*共通メニュー1*/
+.category1{
+    font-family: 'Press Start 2P', cursive;
+    margin-left: -30px;
+}
+/*共通メニュー2*/
+.category2{
+    font-family: 'Fredoka One', cursive;
+    font-size:200%;
+    margin-left: -40px;
+}
+/*共通メニュー*/
 .fa {
   margin-right: 5px;
 }
-
 .fa-times {
   position: absolute;
   top: 12px;
