@@ -1,0 +1,17 @@
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  background-color:rgb(24, 85, 97);
+  color:white;
+  margin-top: auto;
+  position:relative;
+  bottom:0;
+}

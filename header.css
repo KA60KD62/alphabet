@@ -1,0 +1,111 @@
+
+.name-logo{
+    font-size:220%;
+    color:white;
+    
+}
+.container-header {
+  width: 1oo%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-right .login {
+  line-height: 67px;
+  padding: 18px 25px 0 25px;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
+ul {
+    list-style-type: none;
+    font-size:120%;
+    padding-right:25px;
+}
+.category1{
+    font-family: 'Press Start 2P', cursive;
+    margin-left: -30px;
+}
+
+.category2{
+    font-family: 'Fredoka One', cursive;
+    font-size:200%;
+    margin-left: -40px;
+}
+
+header {
+  height: 85px;
+  width: 100%;
+  background-color: rgb(24, 85, 97);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+  padding:1.35% 0 0 10px;
+}
+
+.header-right {
+  float: right;
+  background-color:rgb(24, 85, 97) ;
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+#signup-form, #login-form {
+  width: 100%;
+}
+
+#signup-form h2, #login-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#signup-form input, #login-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+.login-modal-wrapper, .signup-modal-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+

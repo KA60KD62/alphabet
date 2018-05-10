@@ -1,0 +1,70 @@
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 100%;
+    margin-bottom: 50px;    
+  }
+  .memberb4 {
+    width: 100%;
+    margin-bottom: 50px;    
+  }
+  .member-m1 {
+    width: 100%;
+    margin-bottom: 50px;    
+  }
+  .member-m2 {
+    width: 100%;
+    margin-bottom: 50px;    
+  }
+    
+.member-photo{
+    width:50%;
+    height:50%;
+    border-radius:100%;
+}
+.member-photo-m1{
+    width:50%;
+    height:50%;
+    border-radius:100%;
+}    
+    
+   footer {
+    text-align: center;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+  .top-wrapper {
+    padding: 100px 0 50px 0;
+    background-image: url(honda.jpeg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  body{
+    overflow: scroll;
+  }
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+  
+  .clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+  }
+  
+
+}

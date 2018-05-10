@@ -1,0 +1,195 @@
+.member-header{
+  height: 85px;
+  width: 100%;
+  background-color: dimgray;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.member-header-right {
+  float: right;
+  background-color:dimgray;
+  transition: all 0.5s;
+  line-height: 67px;
+  padding: 18px 25px 0 25px;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
+.memberheader-right:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+#link-font{
+  color:gold;
+}
+
+.member-btn {
+  padding: 8px 24px;
+  color: black;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.member-message {
+  padding: 15px 0;
+  background-color: yellow;
+  cursor: pointer;
+  box-shadow: 0px 7px gold;
+}
+.member-message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.member-btn:hover {
+  opacity: 1;
+}
+#member-back{
+    margin-top:98px;
+    background-image: url(sakurai.jpg);
+}
+#link-btn-font{
+    color:dimgray;
+}
+
+.top-member {
+  padding: 180px 0 100px 0;
+  background-image: url(sakurai.jpg);
+  background-size: cover;
+  color: gold;
+  text-align: center;
+}
+
+.title-m2{
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  margin: 0;
+   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(honda.jpeg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.container {
+  width: 1oo%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  font-size: 14px;
+  margin-bottom: 35px;
+}
+
+.member-wrapper {
+  height: 100%;
+  padding-bottom: 80px;
+  background-color: gold;
+  text-align: center;
+  padding-top: 50px;
+}
+.member-photo{
+    width:80%;
+    height:80%;
+    border-radius:100%;
+}
+.member-photo-m1{
+    width:59%;
+    height:59%;
+    border-radius:100%;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.memberb4 {
+  float: left;
+  width: 20%;
+}
+.member-m1 {
+  float: left;
+  width: 33%;
+}
+.member-m2 {
+  float: left;
+  width: 25%;
+}
+
+.member-icon {
+  position: relative;
+  
+  width: 100%;
+  margin: 0 auto;
+}
+
+.member-icon p {
+  position: absolute;
+  width: 100%;
+  margin-top:-40px;
+  font-family:'Yu Gothic';
+  font-size:150%;
+  font-weight:bolder;
+  color: black;
+}
+
+.member-comment {
+  margin: 3% auto;
+  width: 80%;
+  display: none;
+  font-size: 24px;
+  color: #5f5d60;
+}
+
+.member-active {
+  display: block;
+}
+.clear{
+  clear:left;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+.member-footer {
+  padding-top: 30px;
+  background-color:dimgray;
+  margin-top: auto;
+  position:relative;
+  bottom:0;
+}
+
+
