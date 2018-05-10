@@ -1,3 +1,4 @@
+/*共通下リンク*/
 .container-message {
   width: 1oo%;
   padding: 0 15px;
@@ -8,19 +9,13 @@
   padding-bottom: 30px;
   color: #5f5d60;
 }
-
 .heading-message h2 {
   font-weight: normal;
 }
-
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
-}
-
-.message-wrapper .heading h3 {
-  font-weight: normal;
 }
 .btn {
   padding: 8px 24px;
@@ -30,22 +25,28 @@
   border-radius: 4px;
   cursor: pointer;
 }
-
 .btn:hover {
   opacity: 1;
 }
+/*index内容、共通下リンク*/
+.message-wrapper .heading h3 {
+  font-weight: normal;
+}
+/*index他も見ていきませんか*/
 .message {
   padding: 15px 0;
   background-color: #B3B3B3;
   cursor: pointer;
   box-shadow: 0px 7px #828282;
 }
-@media all and (min-width: 1000px) {
-  padding:15px 15px ;
-}
-
 .message:active {
   position: relative;
   top: 7px;
   box-shadow: none;
 }
+/*全体多分レス行く*/
+@media all and (min-width: 1000px) {
+  padding:15px 15px ;
+}
+
+
