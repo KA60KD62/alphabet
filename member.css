@@ -1,3 +1,15 @@
+/*member専用*/
+/*全体*/
+body {
+  margin: 0;
+   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+a{
+  text-decoration: none;
+}
+/*ヘッダー*/
 .member-header{
   height: 85px;
   width: 100%;
@@ -19,10 +31,21 @@
 .memberheader-right:hover {
   background-color: rgba(255,255,255,0.5);
 }
-#link-font{
-  color:gold;
+/*見出し*/
+.top-member {
+  padding: 180px 0 100px 0;
+  background-image: url(sakurai.jpg);
+  background-size: cover;
+  color: gold;
+  text-align: center;
 }
-
+/*見出し、フッター*/
+.container {
+  width: 1oo%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*リンク*/
 .member-btn {
   padding: 8px 24px;
   color: black;
@@ -30,6 +53,18 @@
   border-radius: 4px;
   cursor: pointer;
 }
+#link-font{
+  color:gold;
+}
+#member-back{
+    margin-top:98px;
+    background-image: url(sakurai.jpg);
+}
+#link-btn-font{
+    color:dimgray;
+}
+
+/*メンバー紹介*/
 .member-message {
   padding: 15px 0;
   background-color: yellow;
@@ -44,64 +79,14 @@
 .member-btn:hover {
   opacity: 1;
 }
-#member-back{
-    margin-top:98px;
-    background-image: url(sakurai.jpg);
-}
-#link-btn-font{
-    color:dimgray;
-}
-
-.top-member {
-  padding: 180px 0 100px 0;
-  background-image: url(sakurai.jpg);
-  background-size: cover;
-  color: gold;
-  text-align: center;
-}
-
+/*学年紹介*/
 .title-m2{
   text-align: center;
   font-size: 200%;
   font-family: 'Roboto Slab', serif;
 }
 
-body {
-  margin: 0;
-   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-a{
-  text-decoration: none;
-}
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(honda.jpeg);
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-.container {
-  width: 1oo%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  font-size: 14px;
-  margin-bottom: 35px;
-}
-
+/*各紹介*/
 .member-wrapper {
   height: 100%;
   padding-bottom: 80px;
@@ -119,17 +104,6 @@ a{
     height:59%;
     border-radius:100%;
 }
-
-.heading {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
 .memberb4 {
   float: left;
   width: 20%;
@@ -159,7 +133,6 @@ a{
   font-weight:bolder;
   color: black;
 }
-
 .member-comment {
   margin: 3% auto;
   width: 80%;
@@ -167,23 +140,14 @@ a{
   font-size: 24px;
   color: #5f5d60;
 }
-
 .member-active {
   display: block;
 }
-.clear{
-  clear:left;
-}
-
-footer img {
-  width: 125px;
-}
-
+/*footer*/
 footer p {
   color: #b3aeb5;
   font-size: 12px;
 }
-
 .member-footer {
   padding-top: 30px;
   background-color:dimgray;
